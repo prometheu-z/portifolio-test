@@ -3,14 +3,15 @@ import Avatar from "../../../../assets/images/avatar.png"
 import { Button, Container, Grid, Typography } from "@mui/material"
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import EmailIcon from '@mui/icons-material/Email';
+import StyledButtom from "../../../../assets/images/styledButtom/styledButtom";
+import theme from "../../../../theme";
 
 const Hero = () => {
 
 
-    const StyleHero = styled("div")(({ theme }) => ({
-        backgroundColor: theme.palette.primary.contrastText,
+    const StyleHero = styled("div")(() => ({
+        backgroundColor: theme.palette.primary.main,
         height: "100vh",
-
 
     }))
 
@@ -31,14 +32,17 @@ const Hero = () => {
                     </Grid>
                     <Grid size={{xs:12, md:8}}>
                         <Typography color="primary.contrastText" variant="h1" textAlign="center">Gabriel Sampaio</Typography>
-                        <Typography color="primary" variant="h2" textAlign="center">Gabriel Sampaio</Typography>
+                        <Typography color="primary.contrastText" variant="h2" textAlign="center">Gabriel Sampaio</Typography>
                         
                         <Grid container display={"flex"} justifyContent={"center"}>
                             <Grid size={{xs:12, md:4}} display={"flex"} justifyContent={"center"}>
-                                <Button>
+                                <Button color="secondary" >
                                     <ArrowCircleDownIcon/>
                                     Donload CV
                                 </Button>
+                                <StyledButtom>
+
+                                </StyledButtom>
                             </Grid>
                             <Grid size={{xs:12,md:4}} display={"flex"} justifyContent={"center"}>
                                 <Button>
