@@ -12,7 +12,9 @@ let theme = createTheme({
   typography:{
     fontFamily: "Nunito"
   }
+  
 });
+
 
 theme = responsiveFontSizes(theme);
 
