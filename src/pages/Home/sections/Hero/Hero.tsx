@@ -44,10 +44,10 @@ const Hero = () => {
                         
                     </Grid>
                     <Grid size={{xs:12, md:7}}>
-                        <Typography color="primary.contrastText" variant="h1" textAlign="center">Gabriel Sampaio</Typography>
-                        <Typography color="primary.contrastText" variant="h2" textAlign="center">Gabriel Sampaio</Typography>
+                        <Typography color="primary.contrastText" variant="h1" textAlign="center" paddingBottom={2}>Gabriel Sampaio</Typography>
+                        <Typography color="primary.contrastText" variant="h2" textAlign="center" >Gabriel Sampaio</Typography>
                         
-                        <Grid container display={"flex"} justifyContent={"center"} spacing={3}>
+                        <Grid container display={"flex"} justifyContent={"center"} spacing={3} pt={3}>
                             <Grid size={{xs:12, md:4}} display={"flex"} justifyContent={"center"}>
                                 
                                 <StyledButtom>
